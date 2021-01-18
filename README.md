@@ -17,21 +17,21 @@ Created by: Nicholas Michael Halim, Nunung Nurul Qomariyah, Dimitar Kazakov (und
 
 3. This software can take arguments:
 
---genePool = this parameter is used to specify the attractions list in specific country/city that we want to visit. The format should follow the example in: jsonAttraction.txt
+`--genePool` = this parameter is used to specify the attractions list in specific country/city that we want to visit. The format should follow the example in: jsonAttraction.txt
 
---dList = this parameter is used to specify the distance matrix between one place to another place. The format should follow the example in:distanceMatrix.csv
+`--dList` = this parameter is used to specify the distance matrix between one place to another place. The format should follow the example in:distanceMatrix.csv
 
---durList =this parameter is used to specify the duration matrix from one place to another place. The format should follow the example in: durationMatrix.csv
+`--durList` =this parameter is used to specify the duration matrix from one place to another place. The format should follow the example in: durationMatrix.csv
 
---nPeople = this parameter is used to specify the number of people in the group who wants to travel. The default value is 2
+`--nPeople` = this parameter is used to specify the number of people in the group who wants to travel. The default value is 2
 
---budget = this parameter is used to specify the budget that we want to spend for travel for the given day. The default value is 3000000
+`--budget` = this parameter is used to specify the budget that we want to spend for travel for the given day. The default value is 3000000
 
---duration = this parameter is used to specify the number of days of overall trips. For example, if we want to visit Jakarta only for 3 days, we can specify 3. The default value is 3
+`--duration` = this parameter is used to specify the number of days of overall trips. For example, if we want to visit Jakarta only for 3 days, we can specify 3. The default value is 3
 
---epochs = this parameter is used to specify how many iteration we want the algorithm to run. The default value is 400
+`--epochs` = this parameter is used to specify how many iteration we want the algorithm to run. The default value is 400
 
---tags = this parameter is used to specify the favorite type of places we want to visit. We may specify more than one value, separated with a coma (&quot;,&quot;). Possible options are kids-friendly, art-and-culture, museum, outdoors, history, amusement-park, history. The default value is: museum,beach,kids-friendly
+`--tags` = this parameter is used to specify the favorite type of places we want to visit. We may specify more than one value, separated with a coma (&quot;,&quot;). Possible options are kids-friendly, art-and-culture, museum, outdoors, history, amusement-park, history. The default value is: museum,beach,kids-friendly
 
 4. To use the arguments, we can simply type the value-key pairs after calling the main.py, as the following example:
 
