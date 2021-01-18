@@ -8,9 +8,9 @@ Created by: Nicholas Michael Halim, Nunung Nurul Qomariyah, Dimitar Kazakov (und
 
 
 1. This program can only be run with the following requirements:
-  1. CPU architecture must be x86\_64 (or AMD64)
-  2. Python 3.7 is installed
-  3. Ortoolsversion 7.7.7810 module is installed in the Python environment.
+  * CPU architecture must be x86\_64 (or AMD64)
+  * Python 3.7 is installed
+  * Ortoolsversion 7.7.7810 module is installed in the Python environment.
  This module can be installed with pipin Windows, macOS, and Linux. More details on how to install can be found in: _https://developers.google.com/optimization/install/python_
 
 2. Run the program by calling $ python main.py
@@ -35,13 +35,13 @@ Created by: Nicholas Michael Halim, Nunung Nurul Qomariyah, Dimitar Kazakov (und
 
 4. To use the arguments, we can simply type the value-key pairs after calling the main.py, as the following example:
 
-`$ python main.py --genePool jsonAttraction.txt --dList distanceMatrix.csv --durList durationMatrix.csv --nPeople 2 --budget 3000000 --duration 3 --epochs 400 –tags museum,beach,kids-friendly`
+  `$ python main.py --genePool jsonAttraction.txt --dList distanceMatrix.csv --durList durationMatrix.csv --nPeople 2 --budget 3000000 --duration 3 --epochs 400 –tags museum,beach,kids-friendly`
 
 5. Upon a successful execution, the program will show message:
 
-Process finished in 0.284162 seconds
+  `Process finished in 0.284162 seconds`
 
-Result can be found in: newresults.txt
+  `Result can be found in: newresults.txt`
 
 6. The result of the algorithm can be found in newresults.txt
 
